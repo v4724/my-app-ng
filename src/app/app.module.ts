@@ -12,8 +12,6 @@ import { DashboardComponent } from './dashboard/dashboard.component'
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api'
 import { InMemoryDataService } from '@/service/in-memory-data.service'
 import { HeroSearchComponent } from './hero-search/hero-search.component'
-import { APP_BASE_HREF, LocationStrategy, PathLocationStrategy } from '@angular/common'
-
 
 @NgModule({
 	declarations: [
@@ -34,8 +32,6 @@ import { APP_BASE_HREF, LocationStrategy, PathLocationStrategy } from '@angular/
 		AppRoutingModule
 	],
 	providers: [
-		// { provide: APP_BASE_HREF, useValue: 'my-app' },
-		// { provide: LocationStrategy, useClass: PathLocationStrategy }
 	],
 	bootstrap: [AppComponent]
 })
